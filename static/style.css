@@ -2,7 +2,7 @@
   color: #F5F5F5;
   background-color: #242424;
 
-  font-size: 2rem;
+  font-size: 1.25rem;
   font-family: sans-serif;
 
   font-weight: 300;
@@ -23,15 +23,10 @@ main {
 }
 
 
-@media only screen and (min-width: 768px) {
-  :root {
-    font-size: 1.25rem;
-  }
-}
-
-/* HACK Stop content overflow on short screens */
+/* Stop content overflow on short screens */
 @media (max-height: 1021px) {
   main {
+    top: 2em;
     transform: translate(-50%, 0%);
   }
 }
